@@ -32,7 +32,7 @@ rvdw                     = 1.0
 
 tcoupl                   = v-rescale
 nh-chain-length          = 10
-tc-grps                  = System
+tc-grps                  = Protein ;system?
 tau-t                    = 0.1
 ref-t                    = 300
 
@@ -40,7 +40,7 @@ gen-vel                  = no
 gen-temp                 = 300
 gen-seed                 = 173529
 
-constraints              = H-bonds
+constraints              = h-bonds ;H maiuscola
 constraint-algorithm     = Lincs
 
 ; Annealing options below (EDIT THESE!):
